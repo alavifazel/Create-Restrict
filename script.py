@@ -37,7 +37,7 @@ def main():
     time.sleep(1)
     r = popen("pkg info | grep bash").read()
     if not r:
-        sys.exit("[Error] 'bash' should be installed (Install with 'pkg install bash'). ")
+        sys.exit("[Error] 'bash' should be installed. ")
     else:
         print("Ok.")
 
@@ -45,7 +45,7 @@ def main():
     time.sleep(1)
     r = popen("pkg info | grep sudo").read()
     if not r:
-        sys.exit("[Error] 'sudo' should be installed (Install with 'pkg install sudo'). ")
+        sys.exit("[Error] 'sudo' should be installed. ")
     else:
         print("Ok.")
 
