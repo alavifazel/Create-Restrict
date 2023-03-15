@@ -1,0 +1,17 @@
+admin
+alias
+ar
+asa
+at
+awk
+basename
+batch
+bc
+bg
+cal
+cat
+cd
+cflow
+chgrp
+chmod
+chown

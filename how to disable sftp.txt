@@ -1,0 +1,4 @@
+# Open /etc/ssh/sshd_config and comment the following line:
+Subsystem	stfp	/usr...
+
+# To enable sftp uncomment the line above
